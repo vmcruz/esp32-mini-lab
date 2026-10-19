@@ -1,0 +1,84 @@
+(footprint "OLED_Interface"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "58cd7c30-fb84-494c-a56e-284e07118d65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "OLED_Interface"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36b46dd3-c757-4b95-a598-29869cb541ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03b777e2-74c0-47d4-91ff-8a2dbb586f62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SD Pads"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41f38a05-665b-4121-92be-e7674ebff51e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "19055737-5afd-4136-beef-596a48760be4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 -1)
+		(size 1.5 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "98251f9e-7fc4-49b0-9222-874969c3d5ee")
+	)
+	(pad "2" smd rect
+		(at 1.5 -1)
+		(size 1.5 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "bb3e6a03-c253-4e81-931a-bdaddfeb15da")
+	)
+	(embedded_fonts no)
+)

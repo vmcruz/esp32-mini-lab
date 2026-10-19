@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5182dda8-b44c-45fc-b4db-b50dbf45f98b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 19.05)
+		(size 68.58 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "11a58630-7639-457e-8df7-6e9e032b6489")
+		(property "Sheetname" "ESP32-C3-MINI-1"
+			(at 16.51 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32C3MINI1.kicad_sch"
+			(at 16.51 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-SD-Device"
+				(path "/5182dda8-b44c-45fc-b4db-b50dbf45f98b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

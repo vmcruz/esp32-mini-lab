@@ -1,0 +1,21 @@
+sd_cs_pin=5
+sd_clk_pin=10
+sd_miso_pin=7
+sd_mosi_pin=6
+
+ssid=Captive Network
+
+i2c_driver=ssd1306
+i2c_screen_height=64
+i2c_screen_width=128
+i2c_sda_pin=20
+i2c_scl_pin=21
+
+layout=example
+
+btn_pin_mode=0x05
+btn_pin_up=0
+btn_pin_down=2
+btn_pin_right=3
+btn_pin_left=1
+btn_pin_press=4

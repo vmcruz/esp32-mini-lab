@@ -1,0 +1,5 @@
+; microSD default SPI config
+sd_cs_pin=5
+sd_clk_pin=10
+sd_miso_pin=7
+sd_mosi_pin=6
